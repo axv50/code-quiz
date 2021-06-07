@@ -10,12 +10,12 @@ function countdown() {
     
     if (timeLeft > 1) {
      
-      timerEl.textContent = timeLeft + ' seconds remaining';
+      timerEl.textContent = timeLeft + ' ';
       
       timeLeft--;
     } else if (timeLeft === 1) {
      
-      timerEl.textContent = timeLeft + ' second remaining';
+      timerEl.textContent = timeLeft + ' ';
       timeLeft--;
     } else {
       
